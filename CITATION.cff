@@ -20,6 +20,10 @@ version: 0.0.1
 date-released: "2026-04-23"
 license: MIT
 type: software
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19711033
+    description: "Zenodo archive of vega-mir v0.0.1"
 keywords:
   - music information retrieval
   - symbolic music
