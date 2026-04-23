@@ -26,14 +26,15 @@ bibliography: paper.bib
 information-theoretic and statistical metrics for the analysis of
 symbolic music corpora. Given a sequence of scale degrees, a chord
 progression graph, or a tempo curve, the library returns Shannon
-entropy, Zipf's law fits on marginal and joint distributions,
-Kullback-Leibler and Jensen-Shannon divergences (with a pairwise
-matrix builder), the Gini coefficient, a chi-squared stationarity
-test with Cramer's V effect size, Exponential / Laplace fits on
-melodic intervals, network-analysis metrics on chord graphs (PageRank,
-clustering, modularity-based community detection), the Higuchi fractal
-dimension of a 1-D time series, and a spectral analysis of the tempo
-curve that classifies rubato into four categories. Each metric ships
+entropy [@shannon1948mathematical], Zipf's law fits on marginal and
+joint distributions, Kullback-Leibler and Jensen-Shannon divergences
+(with a pairwise matrix builder), the Gini coefficient, a chi-squared
+stationarity test with Cramer's V effect size, Exponential / Laplace
+fits on melodic intervals, network-analysis metrics on chord graphs
+(PageRank, clustering, modularity-based community detection), the
+Higuchi fractal dimension of a 1-D time series
+[@higuchi1988approach], and a spectral analysis of the tempo curve
+that classifies rubato into four categories. Each metric ships
 with theoretical ground-truth tests on canonical inputs, exact parity
 against the reference implementation in the upstream Cygnus pipeline,
 and explicit error handling on degenerate inputs. The 181-test suite
