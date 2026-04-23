@@ -37,16 +37,34 @@ pip install vega-mir
 
 ## Quick start
 
+`vega-mir` operates on **symbolic** input — sequences, distributions, time series, or graphs — not raw audio. Use any upstream tool (music21, partitura, your own pipeline) to extract scale-degree sequences, then feed them in:
+
 ```python
 from vega_mir import shannon_scale_degrees
 
-H = shannon_scale_degrees("path/to/score.mid")
+# A scale-degree sequence on the 15-symbol Cygnus alphabet
+seq = ["I", "V", "vi", "IV", "I", "V", "I"] * 50
+H = shannon_scale_degrees(seq)  # Jeffreys-Laplace smoothing, log base 2
 print(f"Shannon entropy: {H:.3f} bits")
+```
+
+## Notebooks
+
+Two executed notebooks live in [`notebooks/`](notebooks/) and double as the documentation:
+
+- **[01_introduction.ipynb](notebooks/01_introduction.ipynb)** — pedagogical tour of all 9 metrics on synthetic examples whose answers are known analytically (uniform → `log2(N)`, perfect Zipf → `alpha = 1`, white noise → `D = 2`, etc.).
+- **[02_paper_reproduction.ipynb](notebooks/02_paper_reproduction.ipynb)** — reproduces three flagship findings of the Cygnus arXiv paper from bundled real scale-degree counts (8 composers, ~250K observations): Shannon entropy range `[3.33, 3.86]` bits, KL matrix recovering documented stylistic lineages, Zipf-on-transitions historical vs neoclassical gap.
+
+To execute them locally:
+
+```bash
+pip install -e ".[dev]" jupyter matplotlib
+jupyter lab notebooks/
 ```
 
 ## Reproducibility
 
-Each metric is unit-tested against published values from the Cygnus arXiv paper. Releases are archived on Zenodo with a citable DOI.
+Each metric is unit-tested against (a) theoretical anchors on canonical inputs and (b) exact parity with the Cygnus reference implementation. The 181-test suite runs in under one second. Releases are archived on Zenodo with a citable DOI.
 
 ## Citation
 
