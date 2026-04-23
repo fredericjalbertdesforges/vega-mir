@@ -86,7 +86,8 @@ def smoothed_probabilities(
     total = vec.sum()
     if total <= 0:
         return np.zeros_like(vec)
-    return vec / total
+    normalized: NDArray[np.float64] = vec / total
+    return normalized
 
 
 def collapse_repetitions(sequence: Iterable[str]) -> list[str]:

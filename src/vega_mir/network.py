@@ -138,8 +138,8 @@ def chord_graph_from_sequence(
     if alphabet is not None:
         valid = set(alphabet)
         seq = [s for s in seq if s in valid]
-    bigrams: Counter = Counter()
-    src_totals: Counter = Counter()
+    bigrams: Counter[tuple[str, str]] = Counter()
+    src_totals: Counter[str] = Counter()
     for s, t in zip(seq[:-1], seq[1:], strict=False):
         bigrams[(s, t)] += 1
         src_totals[s] += 1

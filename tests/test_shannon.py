@@ -57,25 +57,25 @@ class TestShannonEntropy:
         assert shannon_entropy(np.array([])) == 0.0
 
     def test_natural_log_base(self) -> None:
-        H = shannon_entropy(np.array([0.5, 0.5]), base=math.e)
-        assert H == pytest.approx(math.log(2))
+        h = shannon_entropy(np.array([0.5, 0.5]), base=math.e)
+        assert h == pytest.approx(math.log(2))
 
     def test_log10_base(self) -> None:
-        H = shannon_entropy(np.array([0.5, 0.5]), base=10.0)
-        assert H == pytest.approx(math.log10(2))
+        h = shannon_entropy(np.array([0.5, 0.5]), base=10.0)
+        assert h == pytest.approx(math.log10(2))
 
     def test_accepts_python_list(self) -> None:
         assert shannon_entropy([0.5, 0.5]) == pytest.approx(1.0)
 
     def test_unnormalized_input(self) -> None:
-        H_raw = shannon_entropy(np.array([3.0, 7.0]))
-        H_normalized = shannon_entropy(np.array([0.3, 0.7]))
-        assert H_raw == pytest.approx(H_normalized)
+        h_raw = shannon_entropy(np.array([3.0, 7.0]))
+        h_normalized = shannon_entropy(np.array([0.3, 0.7]))
+        assert h_raw == pytest.approx(h_normalized)
 
     def test_monotonic_with_uniformity(self) -> None:
-        H_skewed = shannon_entropy(np.array([0.9, 0.1]))
-        H_uniform = shannon_entropy(np.array([0.5, 0.5]))
-        assert H_skewed < H_uniform
+        h_skewed = shannon_entropy(np.array([0.9, 0.1]))
+        h_uniform = shannon_entropy(np.array([0.5, 0.5]))
+        assert h_skewed < h_uniform
 
 
 class TestSmoothedProbabilities:
@@ -136,21 +136,21 @@ class TestCollapseRepetitions:
 class TestShannonScaleDegrees:
     def test_uniform_alphabet_no_smoothing(self) -> None:
         seq = list(CYGNUS_15_ALPHABET) * 50
-        H = shannon_scale_degrees(seq, alpha=0.0, collapse=False)
-        assert H == pytest.approx(math.log2(15))
+        h = shannon_scale_degrees(seq, alpha=0.0, collapse=False)
+        assert h == pytest.approx(math.log2(15))
 
     def test_collapse_changes_distribution(self) -> None:
         seq = ["I"] * 100 + ["V"] * 1
-        H_collapsed = shannon_scale_degrees(seq, collapse=True, alpha=0.0)
-        H_raw = shannon_scale_degrees(seq, collapse=False, alpha=0.0)
-        assert H_raw < H_collapsed
-        assert H_collapsed == pytest.approx(1.0)
+        h_collapsed = shannon_scale_degrees(seq, collapse=True, alpha=0.0)
+        h_raw = shannon_scale_degrees(seq, collapse=False, alpha=0.0)
+        assert h_raw < h_collapsed
+        assert h_collapsed == pytest.approx(1.0)
 
     def test_default_smoothing_pulls_constant_above_zero(self) -> None:
         seq = ["I"] * 100
-        H = shannon_scale_degrees(seq)
-        assert H > 0
-        assert H < math.log2(15)
+        h = shannon_scale_degrees(seq)
+        assert h > 0
+        assert h < math.log2(15)
 
     def test_realistic_range(self) -> None:
         # Tonic-heavy distribution mimicking a real composer
@@ -159,22 +159,22 @@ class TestShannonScaleDegrees:
             + ["i"] * 10 + ["v"] * 8 + ["bVII"] * 5 + ["VII"] * 2
         )
         seq = seq * 50
-        H = shannon_scale_degrees(seq)
+        h = shannon_scale_degrees(seq)
         # Cygnus arXiv reports range 3.33-3.86 bits for real composers.
         # Synthetic distribution should land in a similar order of magnitude.
-        assert 2.0 < H < math.log2(15)
+        assert 2.0 < h < math.log2(15)
 
     def test_unknown_symbols_silently_dropped(self) -> None:
         seq_with_noise = ["I", "V", "X", "Y", "I", "V"]
         seq_clean = ["I", "V", "I", "V"]
-        H_noise = shannon_scale_degrees(seq_with_noise, collapse=False, alpha=0.0)
-        H_clean = shannon_scale_degrees(seq_clean, collapse=False, alpha=0.0)
-        assert H_noise == pytest.approx(H_clean)
+        h_noise = shannon_scale_degrees(seq_with_noise, collapse=False, alpha=0.0)
+        h_clean = shannon_scale_degrees(seq_clean, collapse=False, alpha=0.0)
+        assert h_noise == pytest.approx(h_clean)
 
     def test_default_log_base_is_bits(self) -> None:
         seq = ["I", "V"] * 50
-        H = shannon_scale_degrees(seq, alphabet=("I", "V"), alpha=0.0)
-        assert H == pytest.approx(1.0)
+        h = shannon_scale_degrees(seq, alphabet=("I", "V"), alpha=0.0)
+        assert h == pytest.approx(1.0)
 
 
 class TestCygnusParity:

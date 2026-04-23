@@ -119,31 +119,31 @@ class TestCygnusParity:
 
         # Reference: reproduce Cygnus higuchi_fractal_dimension verbatim
         x = np.array(series, dtype=float)
-        N = len(x)
-        L_values = []
-        k_values = []
+        n = len(x)
+        l_values: list[float] = []
+        k_values: list[int] = []
         for k in range(1, k_max + 1):
-            Lk = 0.0
+            l_k = 0.0
             count = 0
             for m in range(1, k + 1):
-                indices = np.arange(m - 1, N, k)
+                indices = np.arange(m - 1, n, k)
                 if len(indices) < 2:
                     continue
-                Lmk = np.sum(np.abs(np.diff(x[indices])))
+                l_mk = float(np.sum(np.abs(np.diff(x[indices]))))
                 n_seg = len(indices) - 1
                 if n_seg > 0:
-                    Lmk = Lmk * (N - 1) / (k * n_seg * k)
-                    Lk += Lmk
+                    l_mk = l_mk * (n - 1) / (k * n_seg * k)
+                    l_k += l_mk
                     count += 1
             if count > 0:
-                Lk /= count
-                if Lk > 0:
-                    L_values.append(Lk)
+                l_k /= count
+                if l_k > 0:
+                    l_values.append(l_k)
                     k_values.append(k)
         log_k = np.log(np.array(k_values))
-        log_L = np.log(np.array(L_values))
-        slope, _, r_value, _, _ = stats.linregress(log_k, log_L)
+        log_l = np.log(np.array(l_values))
+        slope, _, r_value, _, _ = stats.linregress(log_k, log_l)
 
         assert result.dimension == pytest.approx(-slope)
         assert result.r_squared == pytest.approx(r_value ** 2)
-        assert result.n_points == len(L_values)
+        assert result.n_points == len(l_values)

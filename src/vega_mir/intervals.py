@@ -14,7 +14,7 @@ well captured by either Exponential or Laplace models.
 from __future__ import annotations
 
 from collections.abc import Mapping, Sequence
-from typing import NamedTuple
+from typing import Any, NamedTuple
 
 import numpy as np
 from numpy.typing import NDArray
@@ -123,7 +123,7 @@ def fit_intervals(intervals: Sequence[float] | NDArray[np.floating]) -> Interval
 
 
 def reconstruct_sample(
-    distribution: Mapping[int | str, float],
+    distribution: Mapping[Any, float],
     sample_size: int = 10000,
 ) -> NDArray[np.float64]:
     """Reconstruct an absolute-interval sample from a distribution dict.
@@ -136,10 +136,12 @@ def reconstruct_sample(
 
     Parameters
     ----------
-    distribution : mapping of int or str to float
+    distribution : mapping of int-convertible keys to float
         Maps signed or unsigned intervals (semitones) to their weight.
-        Weights are typically proportions summing to 1, but any
-        non-negative weight is accepted.
+        Keys may be ``int`` or ``str`` digits; non-int-convertible keys
+        raise ``ValueError`` from the underlying ``int(k)`` call. Weights
+        are typically proportions summing to 1, but any non-negative
+        weight is accepted.
     sample_size : int, default 10000
         Target sample size used to convert weights to integer counts.
         Each entry contributes at least one copy regardless of weight.
