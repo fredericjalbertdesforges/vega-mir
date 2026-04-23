@@ -152,13 +152,13 @@ def zipf_fit_transitions(
     seq = collapse_repetitions(sequence) if collapse else list(sequence)
     n = len(alphabet)
     idx = {sym: i for i, sym in enumerate(alphabet)}
-    mat = np.zeros((n, n), dtype=np.float64)
+    counts = np.zeros((n, n), dtype=np.float64)
     for src, tgt in zip(seq[:-1], seq[1:], strict=False):
         if src in idx and tgt in idx:
-            mat[idx[src], idx[tgt]] += 1.0
-    mat = mat + alpha
-    total = mat.sum()
+            counts[idx[src], idx[tgt]] += 1.0
+    smoothed: NDArray[np.float64] = counts + alpha
+    total = smoothed.sum()
     if total <= 0:
         return ZipfFit(alpha=0.0, r_squared=0.0, intercept=0.0, n_points=0)
-    probs = (mat / total).flatten()
+    probs = (smoothed / total).flatten()
     return zipf_fit(probs)
