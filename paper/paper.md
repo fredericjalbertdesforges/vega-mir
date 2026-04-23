@@ -11,7 +11,7 @@ tags:
   - musicology
 authors:
   - name: Fred Jalbert-Desforges
-    orcid: 0000-0000-0000-0000  # TODO: replace with author's ORCID
+    orcid: 0009-0002-4357-6942
     affiliation: 1
 affiliations:
   - name: Independent Researcher, Cygnus Analysis, Montreal, Canada
