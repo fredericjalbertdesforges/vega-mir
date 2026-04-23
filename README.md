@@ -69,15 +69,18 @@ Each metric is unit-tested against (a) theoretical anchors on canonical inputs a
 
 ## Citation
 
-If you use `vega-mir` in your research, please cite it via the `CITATION.cff` file or:
+If you use `vega-mir` in your research, please cite the archived release via its DOI. The `CITATION.cff` file at the repo root carries the same metadata in machine-readable form (GitHub renders a "Cite this repository" widget directly from it).
 
 ```bibtex
-@software{vega_mir,
+@software{jalbertdesforges_2026_vegamir,
   author    = {Jalbert-Desforges, Fred},
-  title     = {vega-mir: Information-theoretic analysis of symbolic music},
+  title     = {vega-mir: A Python library for information-theoretic
+               analysis of symbolic music},
+  version   = {v0.0.1},
   year      = {2026},
   publisher = {Zenodo},
-  url       = {https://github.com/fredericjalbertdesforges/vega-mir}
+  doi       = {10.5281/zenodo.19711033},
+  url       = {https://doi.org/10.5281/zenodo.19711033}
 }
 ```
 
