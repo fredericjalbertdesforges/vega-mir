@@ -1,0 +1,2122 @@
+{
+  "shannon_published": {
+    "Johann Sebastian Bach": {
+      "H": 3.8079,
+      "ci_95": [
+        3.7808,
+        3.826
+      ],
+      "n_pieces": 144,
+      "low_sample": false
+    },
+    "Joseph Haydn": {
+      "H": 3.7534,
+      "ci_95": [
+        3.6059,
+        3.8158
+      ],
+      "n_pieces": 40,
+      "low_sample": false
+    },
+    "Ludwig van Beethoven": {
+      "H": 3.8055,
+      "ci_95": [
+        3.757,
+        3.8326
+      ],
+      "n_pieces": 145,
+      "low_sample": false
+    },
+    "Frédéric Chopin": {
+      "H": 3.8595,
+      "ci_95": [
+        3.8319,
+        3.8704
+      ],
+      "n_pieces": 198,
+      "low_sample": false
+    },
+    "Franz Liszt": {
+      "H": 3.8621,
+      "ci_95": [
+        3.8376,
+        3.8723
+      ],
+      "n_pieces": 131,
+      "low_sample": false
+    },
+    "Sergei Rachmaninoff": {
+      "H": 3.8519,
+      "ci_95": [
+        3.7899,
+        3.8698
+      ],
+      "n_pieces": 59,
+      "low_sample": false
+    },
+    "Philip Glass": {
+      "H": 3.484,
+      "ci_95": [
+        3.126,
+        3.673
+      ],
+      "n_pieces": 11,
+      "low_sample": false
+    },
+    "Max Richter": {
+      "H": 3.6292,
+      "ci_95": [
+        3.2659,
+        3.739
+      ],
+      "n_pieces": 16,
+      "low_sample": false
+    }
+  },
+  "zipf_marginal_published": {
+    "Johann Sebastian Bach": {
+      "alpha": 0.4475,
+      "R2": 0.5919,
+      "intercept": -2.8208,
+      "n_points": 15,
+      "ranked_degrees": [
+        {
+          "rank": 1,
+          "label": "II",
+          "P": 0.114622
+        },
+        {
+          "rank": 2,
+          "label": "i",
+          "P": 0.090836
+        },
+        {
+          "rank": 3,
+          "label": "v",
+          "P": 0.083624
+        },
+        {
+          "rank": 4,
+          "label": "VI",
+          "P": 0.079053
+        },
+        {
+          "rank": 5,
+          "label": "bVII",
+          "P": 0.078136
+        },
+        {
+          "rank": 6,
+          "label": "iv",
+          "P": 0.076349
+        },
+        {
+          "rank": 7,
+          "label": "I",
+          "P": 0.069485
+        },
+        {
+          "rank": 8,
+          "label": "bIII",
+          "P": 0.068425
+        },
+        {
+          "rank": 9,
+          "label": "bVI",
+          "P": 0.066243
+        },
+        {
+          "rank": 10,
+          "label": "V",
+          "P": 0.063633
+        },
+        {
+          "rank": 11,
+          "label": "III",
+          "P": 0.063048
+        },
+        {
+          "rank": 12,
+          "label": "IV",
+          "P": 0.054334
+        },
+        {
+          "rank": 13,
+          "label": "VII",
+          "P": 0.038091
+        },
+        {
+          "rank": 14,
+          "label": "bII",
+          "P": 0.036336
+        },
+        {
+          "rank": 15,
+          "label": "#IV",
+          "P": 0.017784
+        }
+      ],
+      "n_pieces": 144,
+      "low_sample": false
+    },
+    "Joseph Haydn": {
+      "alpha": 0.579,
+      "R2": 0.8206,
+      "intercept": -2.5107,
+      "n_points": 15,
+      "ranked_degrees": [
+        {
+          "rank": 1,
+          "label": "II",
+          "P": 0.127633
+        },
+        {
+          "rank": 2,
+          "label": "I",
+          "P": 0.121957
+        },
+        {
+          "rank": 3,
+          "label": "VI",
+          "P": 0.090104
+        },
+        {
+          "rank": 4,
+          "label": "V",
+          "P": 0.089761
+        },
+        {
+          "rank": 5,
+          "label": "III",
+          "P": 0.084526
+        },
+        {
+          "rank": 6,
+          "label": "i",
+          "P": 0.067743
+        },
+        {
+          "rank": 7,
+          "label": "IV",
+          "P": 0.065835
+        },
+        {
+          "rank": 8,
+          "label": "bVII",
+          "P": 0.061529
+        },
+        {
+          "rank": 9,
+          "label": "bIII",
+          "P": 0.060159
+        },
+        {
+          "rank": 10,
+          "label": "bII",
+          "P": 0.051352
+        },
+        {
+          "rank": 11,
+          "label": "bVI",
+          "P": 0.047291
+        },
+        {
+          "rank": 12,
+          "label": "iv",
+          "P": 0.041664
+        },
+        {
+          "rank": 13,
+          "label": "v",
+          "P": 0.038483
+        },
+        {
+          "rank": 14,
+          "label": "VII",
+          "P": 0.031046
+        },
+        {
+          "rank": 15,
+          "label": "#IV",
+          "P": 0.020917
+        }
+      ],
+      "n_pieces": 40,
+      "low_sample": false
+    },
+    "Ludwig van Beethoven": {
+      "alpha": 0.4723,
+      "R2": 0.8083,
+      "intercept": -2.7463,
+      "n_points": 15,
+      "ranked_degrees": [
+        {
+          "rank": 1,
+          "label": "II",
+          "P": 0.117266
+        },
+        {
+          "rank": 2,
+          "label": "I",
+          "P": 0.109124
+        },
+        {
+          "rank": 3,
+          "label": "VI",
+          "P": 0.086997
+        },
+        {
+          "rank": 4,
+          "label": "III",
+          "P": 0.085417
+        },
+        {
+          "rank": 5,
+          "label": "V",
+          "P": 0.076468
+        },
+        {
+          "rank": 6,
+          "label": "i",
+          "P": 0.070942
+        },
+        {
+          "rank": 7,
+          "label": "IV",
+          "P": 0.070669
+        },
+        {
+          "rank": 8,
+          "label": "bVI",
+          "P": 0.06026
+        },
+        {
+          "rank": 9,
+          "label": "bII",
+          "P": 0.059268
+        },
+        {
+          "rank": 10,
+          "label": "bIII",
+          "P": 0.057513
+        },
+        {
+          "rank": 11,
+          "label": "bVII",
+          "P": 0.055213
+        },
+        {
+          "rank": 12,
+          "label": "v",
+          "P": 0.047529
+        },
+        {
+          "rank": 13,
+          "label": "iv",
+          "P": 0.04064
+        },
+        {
+          "rank": 14,
+          "label": "VII",
+          "P": 0.037621
+        },
+        {
+          "rank": 15,
+          "label": "#IV",
+          "P": 0.025075
+        }
+      ],
+      "n_pieces": 145,
+      "low_sample": false
+    },
+    "Frédéric Chopin": {
+      "alpha": 0.3158,
+      "R2": 0.7862,
+      "intercept": -3.1089,
+      "n_points": 15,
+      "ranked_degrees": [
+        {
+          "rank": 1,
+          "label": "II",
+          "P": 0.099662
+        },
+        {
+          "rank": 2,
+          "label": "VI",
+          "P": 0.088545
+        },
+        {
+          "rank": 3,
+          "label": "bVI",
+          "P": 0.084328
+        },
+        {
+          "rank": 4,
+          "label": "I",
+          "P": 0.080328
+        },
+        {
+          "rank": 5,
+          "label": "III",
+          "P": 0.079632
+        },
+        {
+          "rank": 6,
+          "label": "V",
+          "P": 0.069386
+        },
+        {
+          "rank": 7,
+          "label": "IV",
+          "P": 0.066574
+        },
+        {
+          "rank": 8,
+          "label": "bIII",
+          "P": 0.06411
+        },
+        {
+          "rank": 9,
+          "label": "bII",
+          "P": 0.062574
+        },
+        {
+          "rank": 10,
+          "label": "bVII",
+          "P": 0.059733
+        },
+        {
+          "rank": 11,
+          "label": "i",
+          "P": 0.05882
+        },
+        {
+          "rank": 12,
+          "label": "iv",
+          "P": 0.054516
+        },
+        {
+          "rank": 13,
+          "label": "v",
+          "P": 0.049646
+        },
+        {
+          "rank": 14,
+          "label": "VII",
+          "P": 0.04882
+        },
+        {
+          "rank": 15,
+          "label": "#IV",
+          "P": 0.033327
+        }
+      ],
+      "n_pieces": 198,
+      "low_sample": false
+    },
+    "Franz Liszt": {
+      "alpha": 0.2903,
+      "R2": 0.7024,
+      "intercept": -3.1747,
+      "n_points": 15,
+      "ranked_degrees": [
+        {
+          "rank": 1,
+          "label": "bVI",
+          "P": 0.087594
+        },
+        {
+          "rank": 2,
+          "label": "III",
+          "P": 0.087246
+        },
+        {
+          "rank": 3,
+          "label": "i",
+          "P": 0.081531
+        },
+        {
+          "rank": 4,
+          "label": "II",
+          "P": 0.080902
+        },
+        {
+          "rank": 5,
+          "label": "VI",
+          "P": 0.080454
+        },
+        {
+          "rank": 6,
+          "label": "bIII",
+          "P": 0.078963
+        },
+        {
+          "rank": 7,
+          "label": "bII",
+          "P": 0.075667
+        },
+        {
+          "rank": 8,
+          "label": "VII",
+          "P": 0.067533
+        },
+        {
+          "rank": 9,
+          "label": "bVII",
+          "P": 0.067201
+        },
+        {
+          "rank": 10,
+          "label": "v",
+          "P": 0.057013
+        },
+        {
+          "rank": 11,
+          "label": "iv",
+          "P": 0.055986
+        },
+        {
+          "rank": 12,
+          "label": "I",
+          "P": 0.053319
+        },
+        {
+          "rank": 13,
+          "label": "V",
+          "P": 0.043429
+        },
+        {
+          "rank": 14,
+          "label": "#IV",
+          "P": 0.043064
+        },
+        {
+          "rank": 15,
+          "label": "IV",
+          "P": 0.040099
+        }
+      ],
+      "n_pieces": 131,
+      "low_sample": false
+    },
+    "Sergei Rachmaninoff": {
+      "alpha": 0.3348,
+      "R2": 0.8595,
+      "intercept": -3.0613,
+      "n_points": 15,
+      "ranked_degrees": [
+        {
+          "rank": 1,
+          "label": "bVI",
+          "P": 0.105662
+        },
+        {
+          "rank": 2,
+          "label": "i",
+          "P": 0.089193
+        },
+        {
+          "rank": 3,
+          "label": "VI",
+          "P": 0.082798
+        },
+        {
+          "rank": 4,
+          "label": "bVII",
+          "P": 0.08141
+        },
+        {
+          "rank": 5,
+          "label": "bII",
+          "P": 0.076041
+        },
+        {
+          "rank": 6,
+          "label": "II",
+          "P": 0.07393
+        },
+        {
+          "rank": 7,
+          "label": "bIII",
+          "P": 0.065424
+        },
+        {
+          "rank": 8,
+          "label": "iv",
+          "P": 0.065122
+        },
+        {
+          "rank": 9,
+          "label": "III",
+          "P": 0.063614
+        },
+        {
+          "rank": 10,
+          "label": "v",
+          "P": 0.059271
+        },
+        {
+          "rank": 11,
+          "label": "VII",
+          "P": 0.05909
+        },
+        {
+          "rank": 12,
+          "label": "I",
+          "P": 0.050222
+        },
+        {
+          "rank": 13,
+          "label": "V",
+          "P": 0.046843
+        },
+        {
+          "rank": 14,
+          "label": "IV",
+          "P": 0.041354
+        },
+        {
+          "rank": 15,
+          "label": "#IV",
+          "P": 0.040027
+        }
+      ],
+      "n_pieces": 59,
+      "low_sample": false
+    },
+    "Philip Glass": {
+      "alpha": 0.9545,
+      "R2": 0.8417,
+      "intercept": -1.7602,
+      "n_points": 15,
+      "ranked_degrees": [
+        {
+          "rank": 1,
+          "label": "bVI",
+          "P": 0.183928
+        },
+        {
+          "rank": 2,
+          "label": "v",
+          "P": 0.177
+        },
+        {
+          "rank": 3,
+          "label": "i",
+          "P": 0.091098
+        },
+        {
+          "rank": 4,
+          "label": "iv",
+          "P": 0.085556
+        },
+        {
+          "rank": 5,
+          "label": "II",
+          "P": 0.077936
+        },
+        {
+          "rank": 6,
+          "label": "bVII",
+          "P": 0.067544
+        },
+        {
+          "rank": 7,
+          "label": "I",
+          "P": 0.059231
+        },
+        {
+          "rank": 8,
+          "label": "VI",
+          "P": 0.052996
+        },
+        {
+          "rank": 9,
+          "label": "bIII",
+          "P": 0.050225
+        },
+        {
+          "rank": 10,
+          "label": "III",
+          "P": 0.049532
+        },
+        {
+          "rank": 11,
+          "label": "IV",
+          "P": 0.032906
+        },
+        {
+          "rank": 12,
+          "label": "VII",
+          "P": 0.026671
+        },
+        {
+          "rank": 13,
+          "label": "#IV",
+          "P": 0.016973
+        },
+        {
+          "rank": 14,
+          "label": "V",
+          "P": 0.01628
+        },
+        {
+          "rank": 15,
+          "label": "bII",
+          "P": 0.012123
+        }
+      ],
+      "n_pieces": 11,
+      "low_sample": false
+    },
+    "Max Richter": {
+      "alpha": 0.8626,
+      "R2": 0.4771,
+      "intercept": -1.9804,
+      "n_points": 15,
+      "ranked_degrees": [
+        {
+          "rank": 1,
+          "label": "i",
+          "P": 0.154373
+        },
+        {
+          "rank": 2,
+          "label": "iv",
+          "P": 0.114322
+        },
+        {
+          "rank": 3,
+          "label": "bVI",
+          "P": 0.099113
+        },
+        {
+          "rank": 4,
+          "label": "VI",
+          "P": 0.084411
+        },
+        {
+          "rank": 5,
+          "label": "bIII",
+          "P": 0.07275
+        },
+        {
+          "rank": 6,
+          "label": "V",
+          "P": 0.06616
+        },
+        {
+          "rank": 7,
+          "label": "bVII",
+          "P": 0.06616
+        },
+        {
+          "rank": 8,
+          "label": "II",
+          "P": 0.064132
+        },
+        {
+          "rank": 9,
+          "label": "IV",
+          "P": 0.062611
+        },
+        {
+          "rank": 10,
+          "label": "III",
+          "P": 0.057034
+        },
+        {
+          "rank": 11,
+          "label": "v",
+          "P": 0.056527
+        },
+        {
+          "rank": 12,
+          "label": "I",
+          "P": 0.052471
+        },
+        {
+          "rank": 13,
+          "label": "bII",
+          "P": 0.033714
+        },
+        {
+          "rank": 14,
+          "label": "#IV",
+          "P": 0.013435
+        },
+        {
+          "rank": 15,
+          "label": "VII",
+          "P": 0.002788
+        }
+      ],
+      "n_pieces": 16,
+      "low_sample": false
+    }
+  },
+  "zipf_transitions_published": {
+    "Johann Sebastian Bach": {
+      "alpha": 1.6199,
+      "R2": 0.442,
+      "intercept": 0.9073,
+      "n_points": 225,
+      "top_transitions": [
+        {
+          "rank": 1,
+          "label": "v>i",
+          "P": 0.019394
+        },
+        {
+          "rank": 2,
+          "label": "i>iv",
+          "P": 0.016878
+        },
+        {
+          "rank": 3,
+          "label": "V>I",
+          "P": 0.016419
+        },
+        {
+          "rank": 4,
+          "label": "VI>II",
+          "P": 0.015944
+        },
+        {
+          "rank": 5,
+          "label": "II>V",
+          "P": 0.015137
+        },
+        {
+          "rank": 6,
+          "label": "bIII>i",
+          "P": 0.014947
+        },
+        {
+          "rank": 7,
+          "label": "bVI>iv",
+          "P": 0.014599
+        },
+        {
+          "rank": 8,
+          "label": "I>VI",
+          "P": 0.014551
+        },
+        {
+          "rank": 9,
+          "label": "IV>II",
+          "P": 0.014282
+        },
+        {
+          "rank": 10,
+          "label": "iv>v",
+          "P": 0.013887
+        },
+        {
+          "rank": 11,
+          "label": "i>bVI",
+          "P": 0.013048
+        },
+        {
+          "rank": 12,
+          "label": "I>IV",
+          "P": 0.012969
+        },
+        {
+          "rank": 13,
+          "label": "v>bIII",
+          "P": 0.012795
+        },
+        {
+          "rank": 14,
+          "label": "v>iv",
+          "P": 0.012431
+        },
+        {
+          "rank": 15,
+          "label": "v>bVI",
+          "P": 0.012241
+        },
+        {
+          "rank": 16,
+          "label": "i>v",
+          "P": 0.012114
+        },
+        {
+          "rank": 17,
+          "label": "bVI>v",
+          "P": 0.011639
+        },
+        {
+          "rank": 18,
+          "label": "II>v",
+          "P": 0.011497
+        },
+        {
+          "rank": 19,
+          "label": "iv>i",
+          "P": 0.011465
+        },
+        {
+          "rank": 20,
+          "label": "I>II",
+          "P": 0.011355
+        },
+        {
+          "rank": 21,
+          "label": "VI>IV",
+          "P": 0.011149
+        },
+        {
+          "rank": 22,
+          "label": "i>bIII",
+          "P": 0.011133
+        },
+        {
+          "rank": 23,
+          "label": "iv>bVI",
+          "P": 0.010975
+        },
+        {
+          "rank": 24,
+          "label": "iv>bVII",
+          "P": 0.010911
+        },
+        {
+          "rank": 25,
+          "label": "V>III",
+          "P": 0.010896
+        },
+        {
+          "rank": 26,
+          "label": "bVI>i",
+          "P": 0.010658
+        },
+        {
+          "rank": 27,
+          "label": "bVII>bIII",
+          "P": 0.010627
+        },
+        {
+          "rank": 28,
+          "label": "VI>I",
+          "P": 0.010611
+        },
+        {
+          "rank": 29,
+          "label": "bVII>v",
+          "P": 0.010579
+        },
+        {
+          "rank": 30,
+          "label": "II>I",
+          "P": 0.010342
+        }
+      ],
+      "n_pieces": 144,
+      "low_sample": false
+    },
+    "Joseph Haydn": {
+      "alpha": 1.4574,
+      "R2": 0.5064,
+      "intercept": 0.1083,
+      "n_points": 225,
+      "top_transitions": [
+        {
+          "rank": 1,
+          "label": "II>I",
+          "P": 0.024997
+        },
+        {
+          "rank": 2,
+          "label": "V>I",
+          "P": 0.024607
+        },
+        {
+          "rank": 3,
+          "label": "I>V",
+          "P": 0.02207
+        },
+        {
+          "rank": 4,
+          "label": "I>II",
+          "P": 0.021485
+        },
+        {
+          "rank": 5,
+          "label": "I>VI",
+          "P": 0.020558
+        },
+        {
+          "rank": 6,
+          "label": "VI>I",
+          "P": 0.019583
+        },
+        {
+          "rank": 7,
+          "label": "IV>II",
+          "P": 0.017095
+        },
+        {
+          "rank": 8,
+          "label": "II>V",
+          "P": 0.016754
+        },
+        {
+          "rank": 9,
+          "label": "I>IV",
+          "P": 0.016413
+        },
+        {
+          "rank": 10,
+          "label": "II>IV",
+          "P": 0.015876
+        },
+        {
+          "rank": 11,
+          "label": "III>I",
+          "P": 0.01534
+        },
+        {
+          "rank": 12,
+          "label": "I>III",
+          "P": 0.01534
+        },
+        {
+          "rank": 13,
+          "label": "VI>II",
+          "P": 0.015193
+        },
+        {
+          "rank": 14,
+          "label": "V>III",
+          "P": 0.015096
+        },
+        {
+          "rank": 15,
+          "label": "V>II",
+          "P": 0.014706
+        },
+        {
+          "rank": 16,
+          "label": "IV>I",
+          "P": 0.014657
+        },
+        {
+          "rank": 17,
+          "label": "III>V",
+          "P": 0.014023
+        },
+        {
+          "rank": 18,
+          "label": "VI>V",
+          "P": 0.013779
+        },
+        {
+          "rank": 19,
+          "label": "II>VI",
+          "P": 0.01295
+        },
+        {
+          "rank": 20,
+          "label": "II>III",
+          "P": 0.012169
+        },
+        {
+          "rank": 21,
+          "label": "III>II",
+          "P": 0.01212
+        },
+        {
+          "rank": 22,
+          "label": "V>VI",
+          "P": 0.011535
+        },
+        {
+          "rank": 23,
+          "label": "bIII>i",
+          "P": 0.01134
+        },
+        {
+          "rank": 24,
+          "label": "i>bIII",
+          "P": 0.011096
+        },
+        {
+          "rank": 25,
+          "label": "III>VI",
+          "P": 0.010706
+        },
+        {
+          "rank": 26,
+          "label": "i>iv",
+          "P": 0.010169
+        },
+        {
+          "rank": 27,
+          "label": "VI>III",
+          "P": 0.009682
+        },
+        {
+          "rank": 28,
+          "label": "iv>i",
+          "P": 0.009048
+        },
+        {
+          "rank": 29,
+          "label": "bVII>bIII",
+          "P": 0.008901
+        },
+        {
+          "rank": 30,
+          "label": "IV>VI",
+          "P": 0.008853
+        }
+      ],
+      "n_pieces": 40,
+      "low_sample": false
+    },
+    "Ludwig van Beethoven": {
+      "alpha": 1.5562,
+      "R2": 0.3739,
+      "intercept": 0.5884,
+      "n_points": 225,
+      "top_transitions": [
+        {
+          "rank": 1,
+          "label": "V>I",
+          "P": 0.024595
+        },
+        {
+          "rank": 2,
+          "label": "I>V",
+          "P": 0.017944
+        },
+        {
+          "rank": 3,
+          "label": "I>II",
+          "P": 0.017507
+        },
+        {
+          "rank": 4,
+          "label": "I>VI",
+          "P": 0.017278
+        },
+        {
+          "rank": 5,
+          "label": "I>IV",
+          "P": 0.016984
+        },
+        {
+          "rank": 6,
+          "label": "VI>I",
+          "P": 0.016777
+        },
+        {
+          "rank": 7,
+          "label": "IV>II",
+          "P": 0.016275
+        },
+        {
+          "rank": 8,
+          "label": "II>I",
+          "P": 0.015959
+        },
+        {
+          "rank": 9,
+          "label": "II>IV",
+          "P": 0.014748
+        },
+        {
+          "rank": 10,
+          "label": "VI>II",
+          "P": 0.014487
+        },
+        {
+          "rank": 11,
+          "label": "II>V",
+          "P": 0.014236
+        },
+        {
+          "rank": 12,
+          "label": "IV>I",
+          "P": 0.013909
+        },
+        {
+          "rank": 13,
+          "label": "III>I",
+          "P": 0.012677
+        },
+        {
+          "rank": 14,
+          "label": "I>III",
+          "P": 0.012677
+        },
+        {
+          "rank": 15,
+          "label": "v>i",
+          "P": 0.012622
+        },
+        {
+          "rank": 16,
+          "label": "II>VI",
+          "P": 0.010856
+        },
+        {
+          "rank": 17,
+          "label": "V>II",
+          "P": 0.010692
+        },
+        {
+          "rank": 18,
+          "label": "III>V",
+          "P": 0.010212
+        },
+        {
+          "rank": 19,
+          "label": "III>VI",
+          "P": 0.010005
+        },
+        {
+          "rank": 20,
+          "label": "V>III",
+          "P": 0.009798
+        },
+        {
+          "rank": 21,
+          "label": "VI>V",
+          "P": 0.009765
+        },
+        {
+          "rank": 22,
+          "label": "bIII>i",
+          "P": 0.009754
+        },
+        {
+          "rank": 23,
+          "label": "i>v",
+          "P": 0.009667
+        },
+        {
+          "rank": 24,
+          "label": "II>III",
+          "P": 0.009612
+        },
+        {
+          "rank": 25,
+          "label": "V>VI",
+          "P": 0.00958
+        },
+        {
+          "rank": 26,
+          "label": "i>III",
+          "P": 0.009492
+        },
+        {
+          "rank": 27,
+          "label": "IV>VI",
+          "P": 0.009067
+        },
+        {
+          "rank": 28,
+          "label": "i>iv",
+          "P": 0.008838
+        },
+        {
+          "rank": 29,
+          "label": "III>II",
+          "P": 0.008751
+        },
+        {
+          "rank": 30,
+          "label": "VI>IV",
+          "P": 0.008675
+        }
+      ],
+      "n_pieces": 145,
+      "low_sample": false
+    },
+    "Frédéric Chopin": {
+      "alpha": 1.4029,
+      "R2": 0.3311,
+      "intercept": -0.2103,
+      "n_points": 225,
+      "top_transitions": [
+        {
+          "rank": 1,
+          "label": "V>I",
+          "P": 0.017219
+        },
+        {
+          "rank": 2,
+          "label": "IV>II",
+          "P": 0.014505
+        },
+        {
+          "rank": 3,
+          "label": "I>VI",
+          "P": 0.014404
+        },
+        {
+          "rank": 4,
+          "label": "VI>II",
+          "P": 0.013983
+        },
+        {
+          "rank": 5,
+          "label": "II>IV",
+          "P": 0.013968
+        },
+        {
+          "rank": 6,
+          "label": "VI>I",
+          "P": 0.013519
+        },
+        {
+          "rank": 7,
+          "label": "II>V",
+          "P": 0.013214
+        },
+        {
+          "rank": 8,
+          "label": "I>IV",
+          "P": 0.012662
+        },
+        {
+          "rank": 9,
+          "label": "I>V",
+          "P": 0.012503
+        },
+        {
+          "rank": 10,
+          "label": "bVI>iv",
+          "P": 0.012445
+        },
+        {
+          "rank": 11,
+          "label": "iv>bVI",
+          "P": 0.011893
+        },
+        {
+          "rank": 12,
+          "label": "III>VI",
+          "P": 0.01169
+        },
+        {
+          "rank": 13,
+          "label": "V>VI",
+          "P": 0.010921
+        },
+        {
+          "rank": 14,
+          "label": "II>VI",
+          "P": 0.010572
+        },
+        {
+          "rank": 15,
+          "label": "v>i",
+          "P": 0.010166
+        },
+        {
+          "rank": 16,
+          "label": "II>I",
+          "P": 0.010108
+        },
+        {
+          "rank": 17,
+          "label": "VI>V",
+          "P": 0.010094
+        },
+        {
+          "rank": 18,
+          "label": "bIII>bVI",
+          "P": 0.010065
+        },
+        {
+          "rank": 19,
+          "label": "II>III",
+          "P": 0.009847
+        },
+        {
+          "rank": 20,
+          "label": "i>iv",
+          "P": 0.009832
+        },
+        {
+          "rank": 21,
+          "label": "I>II",
+          "P": 0.009789
+        },
+        {
+          "rank": 22,
+          "label": "IV>I",
+          "P": 0.009266
+        },
+        {
+          "rank": 23,
+          "label": "V>II",
+          "P": 0.009208
+        },
+        {
+          "rank": 24,
+          "label": "VI>III",
+          "P": 0.009136
+        },
+        {
+          "rank": 25,
+          "label": "bVI>i",
+          "P": 0.008976
+        },
+        {
+          "rank": 26,
+          "label": "V>III",
+          "P": 0.008773
+        },
+        {
+          "rank": 27,
+          "label": "III>V",
+          "P": 0.008715
+        },
+        {
+          "rank": 28,
+          "label": "III>I",
+          "P": 0.008671
+        },
+        {
+          "rank": 29,
+          "label": "VI>IV",
+          "P": 0.008323
+        },
+        {
+          "rank": 30,
+          "label": "i>v",
+          "P": 0.008308
+        }
+      ],
+      "n_pieces": 198,
+      "low_sample": false
+    },
+    "Franz Liszt": {
+      "alpha": 1.2773,
+      "R2": 0.2852,
+      "intercept": -0.9067,
+      "n_points": 225,
+      "top_transitions": [
+        {
+          "rank": 1,
+          "label": "i>bIII",
+          "P": 0.010847
+        },
+        {
+          "rank": 2,
+          "label": "v>i",
+          "P": 0.010764
+        },
+        {
+          "rank": 3,
+          "label": "III>VI",
+          "P": 0.010532
+        },
+        {
+          "rank": 4,
+          "label": "bIII>i",
+          "P": 0.010284
+        },
+        {
+          "rank": 5,
+          "label": "VI>I",
+          "P": 0.009869
+        },
+        {
+          "rank": 6,
+          "label": "i>iv",
+          "P": 0.00977
+        },
+        {
+          "rank": 7,
+          "label": "I>VI",
+          "P": 0.009737
+        },
+        {
+          "rank": 8,
+          "label": "bVI>bII",
+          "P": 0.009555
+        },
+        {
+          "rank": 9,
+          "label": "bII>bVII",
+          "P": 0.009472
+        },
+        {
+          "rank": 10,
+          "label": "bVI>i",
+          "P": 0.009289
+        },
+        {
+          "rank": 11,
+          "label": "VI>III",
+          "P": 0.009256
+        },
+        {
+          "rank": 12,
+          "label": "i>v",
+          "P": 0.009057
+        },
+        {
+          "rank": 13,
+          "label": "bIII>bVI",
+          "P": 0.008991
+        },
+        {
+          "rank": 14,
+          "label": "iv>bVI",
+          "P": 0.008776
+        },
+        {
+          "rank": 15,
+          "label": "bVII>bII",
+          "P": 0.008759
+        },
+        {
+          "rank": 16,
+          "label": "bVI>iv",
+          "P": 0.008626
+        },
+        {
+          "rank": 17,
+          "label": "bVI>bIII",
+          "P": 0.008477
+        },
+        {
+          "rank": 18,
+          "label": "iv>i",
+          "P": 0.008411
+        },
+        {
+          "rank": 19,
+          "label": "III>bII",
+          "P": 0.008394
+        },
+        {
+          "rank": 20,
+          "label": "i>bVI",
+          "P": 0.008394
+        },
+        {
+          "rank": 21,
+          "label": "VI>II",
+          "P": 0.008278
+        },
+        {
+          "rank": 22,
+          "label": "bII>III",
+          "P": 0.008013
+        },
+        {
+          "rank": 23,
+          "label": "bVII>bIII",
+          "P": 0.00793
+        },
+        {
+          "rank": 24,
+          "label": "i>III",
+          "P": 0.007897
+        },
+        {
+          "rank": 25,
+          "label": "V>I",
+          "P": 0.007897
+        },
+        {
+          "rank": 26,
+          "label": "v>bVI",
+          "P": 0.007848
+        },
+        {
+          "rank": 27,
+          "label": "III>bVI",
+          "P": 0.007765
+        },
+        {
+          "rank": 28,
+          "label": "i>VI",
+          "P": 0.007715
+        },
+        {
+          "rank": 29,
+          "label": "bVI>III",
+          "P": 0.007665
+        },
+        {
+          "rank": 30,
+          "label": "VII>bVI",
+          "P": 0.007516
+        }
+      ],
+      "n_pieces": 131,
+      "low_sample": false
+    },
+    "Sergei Rachmaninoff": {
+      "alpha": 1.1636,
+      "R2": 0.3642,
+      "intercept": -1.4137,
+      "n_points": 225,
+      "top_transitions": [
+        {
+          "rank": 1,
+          "label": "i>bVI",
+          "P": 0.018439
+        },
+        {
+          "rank": 2,
+          "label": "bVI>i",
+          "P": 0.016454
+        },
+        {
+          "rank": 3,
+          "label": "bVI>iv",
+          "P": 0.015611
+        },
+        {
+          "rank": 4,
+          "label": "iv>bVI",
+          "P": 0.01507
+        },
+        {
+          "rank": 5,
+          "label": "v>i",
+          "P": 0.013085
+        },
+        {
+          "rank": 6,
+          "label": "bVII>bII",
+          "P": 0.012964
+        },
+        {
+          "rank": 7,
+          "label": "I>VI",
+          "P": 0.012724
+        },
+        {
+          "rank": 8,
+          "label": "VI>I",
+          "P": 0.012664
+        },
+        {
+          "rank": 9,
+          "label": "bII>bVII",
+          "P": 0.011521
+        },
+        {
+          "rank": 10,
+          "label": "i>bIII",
+          "P": 0.011099
+        },
+        {
+          "rank": 11,
+          "label": "bVI>bII",
+          "P": 0.010979
+        },
+        {
+          "rank": 12,
+          "label": "i>iv",
+          "P": 0.010919
+        },
+        {
+          "rank": 13,
+          "label": "bVI>bIII",
+          "P": 0.009656
+        },
+        {
+          "rank": 14,
+          "label": "iv>i",
+          "P": 0.009475
+        },
+        {
+          "rank": 15,
+          "label": "bII>bVI",
+          "P": 0.009295
+        },
+        {
+          "rank": 16,
+          "label": "bIII>i",
+          "P": 0.009295
+        },
+        {
+          "rank": 17,
+          "label": "bIII>bVI",
+          "P": 0.008994
+        },
+        {
+          "rank": 18,
+          "label": "bVI>bVII",
+          "P": 0.008874
+        },
+        {
+          "rank": 19,
+          "label": "i>v",
+          "P": 0.008813
+        },
+        {
+          "rank": 20,
+          "label": "bII>iv",
+          "P": 0.008633
+        },
+        {
+          "rank": 21,
+          "label": "V>I",
+          "P": 0.008452
+        },
+        {
+          "rank": 22,
+          "label": "VI>II",
+          "P": 0.008152
+        },
+        {
+          "rank": 23,
+          "label": "VI>i",
+          "P": 0.008152
+        },
+        {
+          "rank": 24,
+          "label": "II>VI",
+          "P": 0.008031
+        },
+        {
+          "rank": 25,
+          "label": "bVII>i",
+          "P": 0.007791
+        },
+        {
+          "rank": 26,
+          "label": "bVI>v",
+          "P": 0.00773
+        },
+        {
+          "rank": 27,
+          "label": "i>bVII",
+          "P": 0.00767
+        },
+        {
+          "rank": 28,
+          "label": "III>VI",
+          "P": 0.00767
+        },
+        {
+          "rank": 29,
+          "label": "i>bII",
+          "P": 0.00761
+        },
+        {
+          "rank": 30,
+          "label": "II>bVII",
+          "P": 0.00743
+        }
+      ],
+      "n_pieces": 59,
+      "low_sample": false
+    },
+    "Philip Glass": {
+      "alpha": 1.411,
+      "R2": 0.8752,
+      "intercept": -0.3248,
+      "n_points": 225,
+      "top_transitions": [
+        {
+          "rank": 1,
+          "label": "v>bVI",
+          "P": 0.063415
+        },
+        {
+          "rank": 2,
+          "label": "bVI>v",
+          "P": 0.043902
+        },
+        {
+          "rank": 3,
+          "label": "bVI>i",
+          "P": 0.042602
+        },
+        {
+          "rank": 4,
+          "label": "iv>bVI",
+          "P": 0.033496
+        },
+        {
+          "rank": 5,
+          "label": "bVII>v",
+          "P": 0.031545
+        },
+        {
+          "rank": 6,
+          "label": "bVI>iv",
+          "P": 0.030244
+        },
+        {
+          "rank": 7,
+          "label": "I>VI",
+          "P": 0.028293
+        },
+        {
+          "rank": 8,
+          "label": "i>v",
+          "P": 0.025041
+        },
+        {
+          "rank": 9,
+          "label": "i>bVI",
+          "P": 0.023089
+        },
+        {
+          "rank": 10,
+          "label": "v>i",
+          "P": 0.022439
+        },
+        {
+          "rank": 11,
+          "label": "v>bVII",
+          "P": 0.021789
+        },
+        {
+          "rank": 12,
+          "label": "bIII>v",
+          "P": 0.019837
+        },
+        {
+          "rank": 13,
+          "label": "v>bIII",
+          "P": 0.018537
+        },
+        {
+          "rank": 14,
+          "label": "iv>v",
+          "P": 0.017886
+        },
+        {
+          "rank": 15,
+          "label": "VI>I",
+          "P": 0.017236
+        },
+        {
+          "rank": 16,
+          "label": "v>iv",
+          "P": 0.016585
+        },
+        {
+          "rank": 17,
+          "label": "I>III",
+          "P": 0.015285
+        },
+        {
+          "rank": 18,
+          "label": "i>iv",
+          "P": 0.014634
+        },
+        {
+          "rank": 19,
+          "label": "bVI>bIII",
+          "P": 0.013333
+        },
+        {
+          "rank": 20,
+          "label": "bVI>bVII",
+          "P": 0.012683
+        },
+        {
+          "rank": 21,
+          "label": "III>I",
+          "P": 0.012033
+        },
+        {
+          "rank": 22,
+          "label": "iv>II",
+          "P": 0.012033
+        },
+        {
+          "rank": 23,
+          "label": "II>bVII",
+          "P": 0.012033
+        },
+        {
+          "rank": 24,
+          "label": "bIII>bVI",
+          "P": 0.011382
+        },
+        {
+          "rank": 25,
+          "label": "VI>IV",
+          "P": 0.010081
+        },
+        {
+          "rank": 26,
+          "label": "v>II",
+          "P": 0.010081
+        },
+        {
+          "rank": 27,
+          "label": "II>bVI",
+          "P": 0.009431
+        },
+        {
+          "rank": 28,
+          "label": "IV>II",
+          "P": 0.009431
+        },
+        {
+          "rank": 29,
+          "label": "bVI>VII",
+          "P": 0.00878
+        },
+        {
+          "rank": 30,
+          "label": "i>II",
+          "P": 0.00878
+        }
+      ],
+      "n_pieces": 11,
+      "low_sample": false
+    },
+    "Max Richter": {
+      "alpha": 1.5124,
+      "R2": 0.839,
+      "intercept": 0.1918,
+      "n_points": 225,
+      "top_transitions": [
+        {
+          "rank": 1,
+          "label": "bVI>i",
+          "P": 0.042445
+        },
+        {
+          "rank": 2,
+          "label": "i>iv",
+          "P": 0.042445
+        },
+        {
+          "rank": 3,
+          "label": "i>bVI",
+          "P": 0.040019
+        },
+        {
+          "rank": 4,
+          "label": "bIII>i",
+          "P": 0.032258
+        },
+        {
+          "rank": 5,
+          "label": "iv>i",
+          "P": 0.031773
+        },
+        {
+          "rank": 6,
+          "label": "bVI>iv",
+          "P": 0.024497
+        },
+        {
+          "rank": 7,
+          "label": "III>V",
+          "P": 0.024497
+        },
+        {
+          "rank": 8,
+          "label": "IV>VI",
+          "P": 0.023041
+        },
+        {
+          "rank": 9,
+          "label": "iv>bVII",
+          "P": 0.020616
+        },
+        {
+          "rank": 10,
+          "label": "i>bIII",
+          "P": 0.020131
+        },
+        {
+          "rank": 11,
+          "label": "V>III",
+          "P": 0.020131
+        },
+        {
+          "rank": 12,
+          "label": "II>IV",
+          "P": 0.018676
+        },
+        {
+          "rank": 13,
+          "label": "VI>IV",
+          "P": 0.01722
+        },
+        {
+          "rank": 14,
+          "label": "i>v",
+          "P": 0.01722
+        },
+        {
+          "rank": 15,
+          "label": "iv>bVI",
+          "P": 0.016735
+        },
+        {
+          "rank": 16,
+          "label": "v>i",
+          "P": 0.015765
+        },
+        {
+          "rank": 17,
+          "label": "V>VI",
+          "P": 0.015765
+        },
+        {
+          "rank": 18,
+          "label": "IV>II",
+          "P": 0.014795
+        },
+        {
+          "rank": 19,
+          "label": "bVII>iv",
+          "P": 0.014795
+        },
+        {
+          "rank": 20,
+          "label": "VI>III",
+          "P": 0.012855
+        },
+        {
+          "rank": 21,
+          "label": "v>bIII",
+          "P": 0.012855
+        },
+        {
+          "rank": 22,
+          "label": "VI>V",
+          "P": 0.012855
+        },
+        {
+          "rank": 23,
+          "label": "bIII>bVI",
+          "P": 0.012855
+        },
+        {
+          "rank": 24,
+          "label": "III>I",
+          "P": 0.012855
+        },
+        {
+          "rank": 25,
+          "label": "iv>v",
+          "P": 0.01237
+        },
+        {
+          "rank": 26,
+          "label": "I>VI",
+          "P": 0.011885
+        },
+        {
+          "rank": 27,
+          "label": "I>IV",
+          "P": 0.011885
+        },
+        {
+          "rank": 28,
+          "label": "VI>II",
+          "P": 0.010914
+        },
+        {
+          "rank": 29,
+          "label": "VI>I",
+          "P": 0.010914
+        },
+        {
+          "rank": 30,
+          "label": "i>bVII",
+          "P": 0.010429
+        }
+      ],
+      "n_pieces": 16,
+      "low_sample": false
+    }
+  },
+  "kl_marginal_published": {
+    "Johann Sebastian Bach": {
+      "Johann Sebastian Bach": 0.0,
+      "Joseph Haydn": 0.0951,
+      "Ludwig van Beethoven": 0.0872,
+      "Frédéric Chopin": 0.0637,
+      "Franz Liszt": 0.0981,
+      "Sergei Rachmaninoff": 0.0802,
+      "Philip Glass": 0.5458,
+      "Max Richter": 0.3356
+    },
+    "Joseph Haydn": {
+      "Johann Sebastian Bach": 0.0909,
+      "Joseph Haydn": 0.0,
+      "Ludwig van Beethoven": 0.0108,
+      "Frédéric Chopin": 0.0588,
+      "Franz Liszt": 0.1706,
+      "Sergei Rachmaninoff": 0.1622,
+      "Philip Glass": 0.7572,
+      "Max Richter": 0.4485
+    },
+    "Ludwig van Beethoven": {
+      "Johann Sebastian Bach": 0.0843,
+      "Joseph Haydn": 0.0112,
+      "Ludwig van Beethoven": 0.0,
+      "Frédéric Chopin": 0.0354,
+      "Franz Liszt": 0.1351,
+      "Sergei Rachmaninoff": 0.1303,
+      "Philip Glass": 0.6797,
+      "Max Richter": 0.4692
+    },
+    "Frédéric Chopin": {
+      "Johann Sebastian Bach": 0.0636,
+      "Joseph Haydn": 0.0618,
+      "Ludwig van Beethoven": 0.0357,
+      "Frédéric Chopin": 0.0,
+      "Franz Liszt": 0.0577,
+      "Sergei Rachmaninoff": 0.0584,
+      "Philip Glass": 0.6487,
+      "Max Richter": 0.4352
+    },
+    "Franz Liszt": {
+      "Johann Sebastian Bach": 0.1072,
+      "Joseph Haydn": 0.1623,
+      "Ludwig van Beethoven": 0.1228,
+      "Frédéric Chopin": 0.0549,
+      "Franz Liszt": 0.0,
+      "Sergei Rachmaninoff": 0.0192,
+      "Philip Glass": 0.7011,
+      "Max Richter": 0.495
+    },
+    "Sergei Rachmaninoff": {
+      "Johann Sebastian Bach": 0.086,
+      "Joseph Haydn": 0.1624,
+      "Ludwig van Beethoven": 0.1256,
+      "Frédéric Chopin": 0.0592,
+      "Franz Liszt": 0.0185,
+      "Sergei Rachmaninoff": 0.0,
+      "Philip Glass": 0.6211,
+      "Max Richter": 0.4483
+    },
+    "Philip Glass": {
+      "Johann Sebastian Bach": 0.5348,
+      "Joseph Haydn": 0.799,
+      "Ludwig van Beethoven": 0.6604,
+      "Frédéric Chopin": 0.5764,
+      "Franz Liszt": 0.6287,
+      "Sergei Rachmaninoff": 0.5425,
+      "Philip Glass": 0.0,
+      "Max Richter": 0.9559
+    },
+    "Max Richter": {
+      "Johann Sebastian Bach": 0.235,
+      "Joseph Haydn": 0.3333,
+      "Ludwig van Beethoven": 0.3448,
+      "Frédéric Chopin": 0.3079,
+      "Franz Liszt": 0.2862,
+      "Sergei Rachmaninoff": 0.2831,
+      "Philip Glass": 1.0379,
+      "Max Richter": 0.0
+    }
+  }
+}
