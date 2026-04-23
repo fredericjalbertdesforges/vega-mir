@@ -6,6 +6,7 @@ Information-theoretic analysis of symbolic music (MIDI).
 [![PyPI version](https://img.shields.io/pypi/v/vega-mir.svg)](https://pypi.org/project/vega-mir/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19711033.svg)](https://doi.org/10.5281/zenodo.19711033)
 
 A focused, well-tested Python library that bundles **nine information-theoretic metrics** for the analysis of symbolic music corpora.
 
