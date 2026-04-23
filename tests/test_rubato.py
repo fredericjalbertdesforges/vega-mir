@@ -145,10 +145,9 @@ class TestSummaryStatistics:
         assert result.n_samples == 200  # 100 + 100
 
     def test_periodicity_ratio_bounded(self) -> None:
-        rng = np.random.default_rng(42)
         for seed in range(5):
-            rng2 = np.random.default_rng(seed)
-            bpm = 120 + rng2.normal(scale=5.0, size=400)
+            rng = np.random.default_rng(seed)
+            bpm = 120 + rng.normal(scale=5.0, size=400)
             result = rubato_spectral(bpm)
             assert 0 <= result.periodicity_ratio <= 1
 

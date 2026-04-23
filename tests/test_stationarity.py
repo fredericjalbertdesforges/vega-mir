@@ -129,6 +129,7 @@ class TestCygnusParity:
 
         # Reference: reproduce Cygnus harmonic_stationarity_track
         from collections import Counter
+
         from scipy import stats
 
         segment_size = len(seq) // n_segments
