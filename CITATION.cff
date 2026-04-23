@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "vega-mir: Information-theoretic analysis of symbolic music"
+abstract: >
+  vega-mir is a Python library that bundles nine information-theoretic
+  metrics for the analysis of symbolic music corpora: Shannon entropy
+  on scale degrees, Zipf's law fits on marginal and transition
+  distributions, asymmetric Kullback-Leibler divergence between composer
+  corpora with bootstrap confidence intervals, network analysis on
+  chord progression graphs, fractal dimension via box-counting,
+  multi-dimensional Gini coefficients, harmonic stationarity tests,
+  interval distribution statistics, and rubato spectral analysis.
+authors:
+  - family-names: "Jalbert-Desforges"
+    given-names: "Fred"
+    email: "fredjocelyn@gmail.com"
+    affiliation: "CYGNUS ANALYSIS, Montreal, Quebec"
+version: 0.0.1
+date-released: "2026-04-23"
+license: MIT
+type: software
+keywords:
+  - music information retrieval
+  - symbolic music
+  - information theory
+  - entropy
+  - Kullback-Leibler divergence
+  - Zipf's law
+  - musicology
+url: "https://github.com/fredericjalbertdesforges/vega-mir"
+repository-code: "https://github.com/fredericjalbertdesforges/vega-mir"
