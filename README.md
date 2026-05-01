@@ -10,6 +10,8 @@ Information-theoretic analysis of symbolic music (MIDI).
 
 A focused, well-tested Python library that bundles **nine information-theoretic metrics** for the analysis of symbolic music corpora.
 
+**Documentation site**: [fredjalbertdesforges.com/papers/vega-mir](https://fredjalbertdesforges.com/papers/vega-mir/)
+
 ## Why
 
 The MIR community uses `music21`, `partitura`, and `jSymbolic` for broad symbolic music analysis, but no Python library currently offers a focused, reproducible, well-tested information-theoretic toolkit. Researchers stitch together `scipy.stats.entropy`, `networkx`, and hand-rolled key detection by hand. `vega-mir` is the missing piece.
@@ -38,7 +40,7 @@ pip install vega-mir
 
 ## Quick start
 
-`vega-mir` operates on **symbolic** input — sequences, distributions, time series, or graphs — not raw audio. Use any upstream tool (music21, partitura, your own pipeline) to extract scale-degree sequences, then feed them in:
+`vega-mir` operates on **symbolic** input (sequences, distributions, time series, or graphs), not raw audio. Use any upstream tool (music21, partitura, your own pipeline) to extract scale-degree sequences, then feed them in:
 
 ```python
 from vega_mir import shannon_scale_degrees
@@ -53,8 +55,8 @@ print(f"Shannon entropy: {H:.3f} bits")
 
 Two executed notebooks live in [`notebooks/`](notebooks/) and double as the documentation:
 
-- **[01_introduction.ipynb](notebooks/01_introduction.ipynb)** — pedagogical tour of all 9 metrics on synthetic examples whose answers are known analytically (uniform → `log2(N)`, perfect Zipf → `alpha = 1`, white noise → `D = 2`, etc.).
-- **[02_paper_reproduction.ipynb](notebooks/02_paper_reproduction.ipynb)** — reproduces three flagship findings of the Cygnus arXiv paper from bundled real scale-degree counts (8 composers, ~250K observations): Shannon entropy range `[3.33, 3.86]` bits, KL matrix recovering documented stylistic lineages, Zipf-on-transitions historical vs neoclassical gap.
+- **[01_introduction.ipynb](notebooks/01_introduction.ipynb)**: pedagogical tour of all 9 metrics on synthetic examples whose answers are known analytically (uniform → `log2(N)`, perfect Zipf → `alpha = 1`, white noise → `D = 2`, etc.).
+- **[02_paper_reproduction.ipynb](notebooks/02_paper_reproduction.ipynb)**: reproduces three flagship findings of the Cygnus arXiv paper from bundled real scale-degree counts (8 composers, ~250K observations). Shannon entropy range `[3.33, 3.86]` bits, KL matrix recovering documented stylistic lineages, Zipf-on-transitions historical vs neoclassical gap.
 
 To execute them locally:
 
@@ -86,8 +88,16 @@ If you use `vega-mir` in your research, please cite the archived release via its
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).
+
+## Author
+
+Fred Jalbert-Desforges, independent researcher in computational music analysis, Montreal, Quebec.
+
+- Personal site: [fredjalbertdesforges.com](https://fredjalbertdesforges.com)
+- ORCID: [0009-0002-4357-6942](https://orcid.org/0009-0002-4357-6942)
+- E-mail: [fred@fredjalbertdesforges.com](mailto:fred@fredjalbertdesforges.com)
 
 ## Acknowledgements
 
-Built within the [CYGNUS ANALYSIS](https://cygnusanalysis.com) research program. Methodology validated against the certified Cygnus pipeline (F1 = 0.9791 on 1238 MAESTRO pieces, ~6.3M notes).
+Built within the [CYGNUS ANALYSIS](https://cygnusanalysis.com) research program. Methodology validated against the certified Cygnus pipeline (F1 = 0.9791 on 1238 MAESTRO pieces, ~6.3M notes). The companion arXiv preprint is available at [fredjalbertdesforges.com/papers/pipeline-arxiv](https://fredjalbertdesforges.com/papers/pipeline-arxiv/).
